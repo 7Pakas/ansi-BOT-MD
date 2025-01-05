@@ -13,9 +13,9 @@ const axios = require('axios')
 
 //---------[ PROPIETARIO/OWNER ]---------
 global.owner = [
-    ["50582340051", "Owner", true],
-    ["595984838201"],
-    ["51918534156"],
+    ["59894009598", "Owner", true],
+    ["59894009598"],
+    ["59894009598"],
     ["123456789"]
 ]
 global.mods = []
@@ -24,11 +24,11 @@ global.blockList = []
 
 //---------[ NOMBRE/INFO ]---------
 global.pagina = "https://ansibot.netlify.app/"
-global.botname = "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
-global.wm = '✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨'
+global.botname = "Maravilla"
+global.wm = 'Maravilla'
 global.vs = '𝟮.𝟭'
-global.creador = '𝐸𝐿𝐼𝐴𝑆𝐴𝑅 𝑌𝑇'
-global.creador2 = 'ELIASAR YT'
+global.creador = 'Pakas'
+global.creador2 = 'Pakas'
 global.nunber = Math.floor(Math.random() * (27 - 18 + 1)) + 18;
 
 function pickRandom(array) {
@@ -104,26 +104,26 @@ global.APIs = {
 //---------[ STICKERS ]---------
 global.packname = ""
 global.author = `{
- "bot": "✨ 𝐚𝐧𝐬í-𝐁𝐎𝐓 ✨"
-  "autor": "Eliasar YT",
+ "bot": "Maravilla "
+  "autor": "pakas",
   "version": "1.2",
-  "creador": "Eliasar YT"
+  "creador": "pakas"
 }
 `
 
 //-----------------IMAGENES---------
-global.menuimg = "https://tinyurl.com/2ba3hubq"
-global.img = "https://tinyurl.com/2clsqrcm";
-global.img1 = "https://tinyurl.com/289vd9yd";
-global.img2 = 'https://tinyurl.com/267ncfe7';
-global.img3 = 'https://tinyurl.com/2464bfeu';
-global.img4 = 'https://tinyurl.com/295boptd';
-global.img5 = 'https://tinyurl.com/263bj3ce';
-global.img6 = 'https://tinyurl.com/2bsdv7rf';
-global.img7 = 'https://tinyurl.com/28wlqbyy';
-global.img8 = 'https://tinyurl.com/2922qvl9';
-global.img9 = 'https://tinyurl.com/2cbdu8ce';
-global.img10 = 'https://tinyurl.com/2cogrq3o';
+global.menuimg = "https://tinyurl.com/Pkass"
+global.img = "https://tinyurl.com/Pkass";
+global.img1 = "https://tinyurl.com/Pkass";
+global.img2 = 'https://tinyurl.com/Pkass';
+global.img3 = 'https://tinyurl.com/Pkass';
+global.img4 = 'https://tinyurl.com/Pkass';
+global.img5 = 'https://tinyurl.com/Pkass';
+global.img6 = 'https://tinyurl.com/Pkass';
+global.img7 = 'https://tinyurl.com/Pkass';
+global.img8 = 'https://tinyurl.com/Pkass';
+global.img9 = 'https://tinyurl.com/Pkass';
+global.img10 = 'https://tinyurl.com/Pkass';
 global.subbot = 'https://i.ibb.co/WtbB1MF/20241030-105934.jpg'
 global.randomImage = pickRandom([img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]);
 
@@ -131,7 +131,7 @@ global.randomImage = pickRandom([img, img1, img2, img3, img4, img5, img6, img7, 
 
 
 global.imagen1 = fs.readFileSync('./media/menu.jpg')
-global.imagen2 = 'https://i.ibb.co/7GjhqZ7/20241129-183639.jpg'
+global.imagen2 = '20241107_180251.jpg'
 global.imagen3 = fs.readFileSync('./media/menu3.jpg')
 global.noperfil = fs.readFileSync('./media/sinfoto.jpg')
 global.verificar = fs.readFileSync('./media/menu2.jpg')
